@@ -5,16 +5,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Anne Lee Portfolio</title>
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/responsive.css">
 		<script src="js/jquery-1.11.2.js"></script>
   		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
-			<div class="row">
+			<header class="row">
 				<div class="col-md-6">
 					<img class="title-logo" src="images/logo.jpeg" alt="logo">
 				</div>
@@ -22,42 +21,40 @@
 					<h1 class="title-super text-thin">Anne Lee</h1>
 					<h3>Front-end Web Developer</h3>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<hr>
-				</div>
-			</div>
-			<div class="row">
+			</header>
+			<hr>
+			<figure class="row">
 				<div class="col-md-12">
 					<img class="img-responsive" src="images/main.jpeg" alt="balloons">
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="text-muted">Featured Work</h2>
-				</div>
-			</div>
-			<div class="row text-center">
-				<div class="col-md-4">
-					<img class="img-responsive img-centered" src="images/resume.jpeg" alt="typewriter" data-toggle="modal" data-target="#project1">
-					<h3 class="text-uppercase text-thick text-md">Resume</h3>
-					<p><a href="http://github.com/anneelee">Link to project</a></p>
-				</div>
-				<div class="col-md-4">
-					<img class="img-responsive img-centered" src="images/game.jpeg" alt="game" data-toggle="modal" data-target="#project2">
-					<h3 class="text-uppercase text-thick text-md">Game</h3>
-					<p><a href="http://github.com/anneelee">Link to project</a></p>
-				</div>
-				<div class="col-md-4">
-					<img class="img-responsive img-centered" src="images/map.jpeg" alt="map" data-toggle="modal" data-target="#project3">
-					<h3 class="text-uppercase text-thick text-md">Map</h3>
-					<p><a href="http://github.com/anneelee">Link to project</a></p>
-				</div>
-			</div>		
+			</figure>
+			<article>
+				<section class="row">
+					<div class="col-md-12">
+						<h2 class="text-muted">Featured Work</h2>
+					</div>
+				</section>
+				<footer class="row text-center">
+					<section class="col-md-4">
+						<img class="img-responsive img-centered" src="images/resume.jpeg" alt="typewriter" data-toggle="modal" data-target="#project1">
+						<h3 class="text-uppercase text-thick text-md">Resume</h3>
+						<nav><a href="http://github.com/anneelee">Link to project</a></nav>
+					</section>
+					<section class="col-md-4">
+						<img class="img-responsive img-centered" src="images/game.jpeg" alt="game" data-toggle="modal" data-target="#project2">
+						<h3 class="text-uppercase text-thick text-md">Game</h3>
+						<nav><a href="http://github.com/anneelee">Link to project</a></nav>
+					</section>
+					<section class="col-md-4">
+						<img class="img-responsive img-centered" src="images/map.jpeg" alt="map" data-toggle="modal" data-target="#project3">
+						<h3 class="text-uppercase text-thick text-md">Map</h3>
+						<nav><a href="http://github.com/anneelee">Link to project</a></nav>
+					</section>
+				</footer>
+			</article>
 		</div>
 		<!-- Modal -->
-<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="resume" aria-hidden="true">
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="resume" aria-hidden="true">
 		  <div class="modal-dialog">
 		    <div class="modal-content">
 		      <div class="modal-header">
